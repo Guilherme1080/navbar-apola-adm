@@ -1,1 +1,0 @@
-# tela-de-dashboard-apola
