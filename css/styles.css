@@ -99,7 +99,7 @@ a{
     .nav{
         position: fixed;
         left: 0;
-        background-color: var(--container-color);
+        background-color: #2B2B2B;
         box-shadow: 1px 0 4px hsla(228,81%,49%, .15);
         width: 84px;
         height: 100vh;
