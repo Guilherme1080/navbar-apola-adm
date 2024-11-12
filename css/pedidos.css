@@ -33,8 +33,8 @@ body {
 .tabs {
     display: flex;
     margin-top: 60px;
-    border: 2px solid #dddddd;
-    border-radius: 10px,0px,10px,0px, solid ;
+    border: 1px solid #dddddd;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .tabs button {
@@ -132,7 +132,14 @@ body {
     border-top: none;
 }
 .table{
-    border: 2px solid #dddddd;
-    border-radius: 1px;
+    border: 1px solid #dddddd;
+    border-radius: 10px 10px 0px 0px;
     border-top: none;
+}
+.table th,td{
+    background-color: #d6d6d6;
+}
+.table .sla{
+    background-color: #d6d6d6;
+
 }
