@@ -27,13 +27,14 @@ body {
 
 .main-content h2 {
     margin-bottom: 20px;
+    color: #000000;
 }
 
 .tabs {
     display: flex;
     margin-top: 60px;
-    border: 2px solid rgba(110, 109, 109, 0.197);
-    border-radius: 5px;
+    border: 2px solid #dddddd;
+    border-radius: 10px,0px,10px,0px, solid ;
 }
 
 .tabs button {
@@ -126,7 +127,12 @@ body {
     color: rgb(0, 0, 0);
 }
 .conteiner{
-    border: 2px solid #c0bebe82;
-    border-radius: 5px;
+    border: 2px solid #dddddd;
+    border-radius: 1px;
+    border-top: none;
+}
+.table{
+    border: 2px solid #dddddd;
+    border-radius: 1px;
     border-top: none;
 }
