@@ -16,7 +16,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Estilos para o conteúdo principal */
 .main-content {
     flex: 1;
     padding: 20px;
@@ -35,6 +34,7 @@ body {
     margin-top: 60px;
     border: 2px solid #dddddd;
     border-radius: 10px 10px 00px 0px ;
+
 }
 
 .tabs button {
@@ -132,13 +132,13 @@ body {
     border-top: none;
 }
 .table{
-    border: 2px solid #dddddd;
-    border-radius: 1px;
+    border: 1px solid #dddddd;
+    border-radius: 10px 10px 0px 0px;
     border-top: none;
 }
 .table th,td{
-    background-color: #AAAAAA;
+    background-color:  #d6d6d6;
 }
 .table .sla{
-    background-color: #AAAAAA;
+    background-color: #d6d6d6;
 }
