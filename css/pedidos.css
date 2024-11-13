@@ -53,15 +53,15 @@ body {
     padding: 10px;
     width: 120px;
     border: none;
-    margin: 10px;
+    margin: 7px;
     background-color: #ffffff; 
     color: #000000;
 }
 .tabs .personalizados{
     padding: 10px;
-    width: 120px;
+    width: 130px;
     border: none;
-    margin: 10px;
+    margin: 7px;
     background-color: #ffffff; 
     color: #000000;
 }
@@ -69,7 +69,7 @@ body {
     padding: 10px;
     width: 120px;
     border: none;
-    margin: 10px;
+    margin: 7px;
     background-color: #ffffff; 
     color: #000000;
 }
@@ -139,6 +139,7 @@ body {
 }
 .conteiner :hover{
     background-color: #4E4E4E;
+    color: white;
 }
 .table{
     border: 1px solid #dddddd;
