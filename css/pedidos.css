@@ -34,7 +34,7 @@ body {
     display: flex;
     margin-top: 60px;
     border: 2px solid #dddddd;
-    border-radius: 10px,0px,10px,0px ;
+    border-radius: 10px 10px 00px 0px ;
 }
 
 .tabs button {
@@ -137,5 +137,8 @@ body {
     border-top: none;
 }
 .table th,td{
+    background-color: #AAAAAA;
+}
+.table .sla{
     background-color: #AAAAAA;
 }
