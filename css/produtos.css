@@ -37,7 +37,7 @@ body {
 
 }
 
-.tabs button {
+.tabs button{
     padding: 10px;
     width: 120px;
     border: none;
@@ -49,7 +49,7 @@ body {
     color: rgb(0, 0, 0);
 
 }
-.tabs .todos{
+.todos{
     padding: 10px;
     width: 120px;
     border: none;
@@ -57,7 +57,7 @@ body {
     background-color: #ffffff; 
     color: #000000;
 }
-.tabs .personalizados{
+.ativo{
     padding: 10px;
     width: 130px;
     border: none;
@@ -65,7 +65,7 @@ body {
     background-color: #ffffff; 
     color: #000000;
 }
-.tabs .disponiveis{
+.inativo{
     padding: 10px;
     width: 120px;
     border: none;
@@ -74,7 +74,8 @@ body {
     color: #000000;
 }
 .tabs :hover{
-    background-color: #E5E5E5;
+    background-color: red;
+    color: white;
 }
 .search-bar {
     display: flex;
@@ -99,7 +100,6 @@ body {
     margin-top: 4px;
     margin-left: 50px;
 }
-
 .status-envio {
     background-color: #ffe600;
     color: black;
@@ -123,24 +123,7 @@ body {
     margin: 2px solid;
     border-radius: 5px;
 }
-.conteiner .status{
-    padding: 10px;
-    width: 120px;
-    border: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    background-color: #ffffff; 
-    color: rgb(0, 0, 0);
-}
-.conteiner{
-    border: 2px solid #dddddd;
-    border-radius: 1px;
-    border-top:none;
-}
-.conteiner :hover{
-    background-color: #4E4E4E;
-    color: white;
-}
+
 .table{
     border: 1px solid #dddddd;
     border-radius: 10px 10px 0px 0px;

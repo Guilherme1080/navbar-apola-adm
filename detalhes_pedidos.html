@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/detalhes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Pedido</title>
+</head>
+<body>
+<header>
+    <div class="nav" id="nav">
+        <nav class="nav__content">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <a href="#" class="nav__logo">
+                <div class="logo">
+                    <img src="scr/logo-removebg-preview.png" alt="">
+                </div>
+            </a>
+            <div class="nav__list">
+                <a href="#" class="nav__link active-link">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <span class="nav__name">Dashboard</span>
+                </a>
+                <a href="pedidos.html" class="nav__link">
+                    <i class="fa-solid fa-truck"></i>
+                    <span class="nav__name">Pedidos</span>
+                </a> 
+                <a href="#" class="nav__link">
+                    <i class="fa-solid fa-box"></i>
+                    <span class="nav__name">Produtos</span>
+                </a>
+                <a href="#" class="nav__link">
+                    <i class="fa-solid fa-boxes-stacked"></i>
+                    <span class="nav__name">Categorias</span>
+                </a>
+                <a href="#" class="nav__link">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <span class="nav__name">Banners</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+</header>
+    <div class="container">
+    <h2>Pedido #8910</h2>
+    <div class="order-card">
+        <div class="client-info">
+        <div>
+            <label>Cliente:</label>
+            <span>Amanda da Rocha Almeida</span>
+        </div>
+        <div>
+            <label>Contato:</label>
+            <span>(11) 9876-5432</span>
+        </div>
+        <div>
+            <label>Rua:</label>
+            <span>Rua das Flores</span>
+        </div>
+        <div>
+            <label>N°:</label>
+            <span>234</span>
+        </div>
+        <div>
+            <label>Bairro:</label>
+            <span>Jardim Primavera</span>
+        </div>
+        <div>
+            <label>Cidade:</label>
+            <span>São Paulo</span>
+        </div>
+        <div>
+            <label>Estado:</label>
+            <span>SP</span>
+        </div>
+        <div>
+            <label>CEP:</label>
+            <span>04567-890</span>
+        </div>
+        </div>
+        <div class="order-info">
+        <div>
+            <label>Status Pedido:</label>
+            <select id="status">
+            <option>Envio</option>
+            <option>Produção</option>
+            <option>Entregue</option>
+            </select>
+        </div>
+        <div>
+            <label>Código de Rastreamento:</label>
+            <input type="text" value="RA123456789BR" readonly>
+        </div>
+        <div>
+            <label>Preço Total:</label>
+            <span>R$ 88,50</span>
+        </div>
+        </div>
+        <div class="description">
+        <label>Descrição:</label>
+        <textarea rows="4"></textarea>
+        </div>
+        <div class="image-section">
+        <label>Imagem:</label>
+        <div class="image-placeholder"></div>
+        </div>
+    </div>
+</div>
+<div class="buttons">
+<button class="reject" onclick="recusarpedido()">Recusar Pedido</button>
+<button class="accept" onclick="aceitarpedido()">Aceitar Pedido</button>
+</div>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
