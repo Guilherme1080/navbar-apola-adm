@@ -101,7 +101,7 @@ body {
 }
 
 .status-envio {
-    background-color: #ffe600;
+    /* background-color: #ffe600; */
     color: black;
     padding: 5px;
     margin: 2px solid;
@@ -109,7 +109,7 @@ body {
 }
 
 .status-entregue {
-    background-color: #00ff00;
+    /* background-color: #00ff00; */
     color: black;
     padding: 5px;
     margin: 2px solid;
@@ -117,7 +117,7 @@ body {
 }
 
 .status-producao {
-    background-color: #ff0000;
+    /* background-color: #ff0000; */
     color: black;
     padding: 5px;
     margin: 2px solid;
@@ -163,4 +163,22 @@ body {
 .detalhes-producao  {
     margin-left: 53%;
     color: #4E4E4E;
+}
+.bola-envio{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 208, 0, 0.682);
+    border-radius: 50%;
+}
+.bola-entregue{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 255, 17);
+    border-radius: 50%;
+}
+.bola-producao{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
 }
