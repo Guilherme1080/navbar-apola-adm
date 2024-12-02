@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
     <header>
         <div class="nav" id="nav">
             <nav class="nav__content">
@@ -31,7 +30,7 @@
                         <i class="fa-solid fa-truck"></i>
                         <span class="nav__name">Pedidos</span>
                     </a>
-                    <a href="#" class="nav__link">
+                    <a href="produtos.html" class="nav__link">
                         <i class="fa-solid fa-box"></i>
                         <span class="nav__name">Produtos</span>
                     </a>
@@ -54,18 +53,16 @@
         <h2>Pedidos
             
         </h2>
-
         <div class="tabs">
-            <button class="todos">Todos</button>
-            <button class="personalizados">Personalizados</button>
-            <button class="disponiveis">Disponíveis</button>
+            <a href="#" class="todos"> Todos </a>
+            <a href="#" class="personalizados"> Personalizados </a>
+            <a href="#" class="disponiveis"> Disponiveis </a>
             <div class="search-bar">
                 <div class="botao">
-                    <i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Pesquisar Nº Pedido"> <button>Buscar</button>
+                    <input type="text" placeholder="Pesquisar Nº Pedido"> <button>Buscar</button>
                 </div>
             </div>
         </div>
-
         <div class="conteiner">
             <button class="status">Todos</button>
             <button class="status">Produção</button>
@@ -187,6 +184,7 @@
                             <i class="fa-solid fa-eye"></i>
                         </a>
                     </td>
+                    </td>
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
@@ -195,13 +193,14 @@
                     <td>Disponível</td>
                     <td>MT</td>
                     <td><span class="status-entregue">Entregue</span>
-                        <div class="bola-entregue"></div>
-                    </td>
-                    <td>
-                        <a href="detalhes_pedidos.html" class="detalhes">
-                            <i class="fa-solid fa-eye"></i>
-                        </a>
-                    </td>
+                        <td>
+                            <div class="bola-entregue"></div>
+                        </td>
+                        <td>
+                            <a href="detalhes_pedidos.html" class="detalhes">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </td>
                 </tr>
                 </tr>
                     <td><input type="checkbox"></td>
@@ -210,6 +209,7 @@
                     <td>Disponível</td>
                     <td>MS</td>
                     <td><span class="status-entregue">Entregue</span></td>
+                    <td>
                         <div class="bola-entregue"></div>
                     </td>
                     <td>

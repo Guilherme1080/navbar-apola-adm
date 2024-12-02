@@ -24,6 +24,23 @@ body {
     margin-left: 6%;
 }
 
+.spacer {
+    flex: 1;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
 .main-content h2 {
     margin-bottom: 20px;
     color: #000000;
@@ -37,7 +54,7 @@ body {
 
 }
 
-.tabs button{
+.tabs button {
     padding: 10px;
     width: 120px;
     border: none;
@@ -49,7 +66,7 @@ body {
     color: rgb(0, 0, 0);
 
 }
-.todos{
+.tabs .todos{
     padding: 10px;
     width: 120px;
     border: none;
@@ -57,7 +74,7 @@ body {
     background-color: #ffffff; 
     color: #000000;
 }
-.ativo{
+.tabs .personalizados{
     padding: 10px;
     width: 130px;
     border: none;
@@ -65,7 +82,7 @@ body {
     background-color: #ffffff; 
     color: #000000;
 }
-.inativo{
+.tabs .disponiveis{
     padding: 10px;
     width: 120px;
     border: none;
@@ -73,9 +90,8 @@ body {
     background-color: #ffffff; 
     color: #000000;
 }
-.tabs :hover{
-    background-color: red;
-    color: white;
+.tabs .disponiveis :hover{
+    background-color: #E5E5E5;
 }
 .search-bar {
     display: flex;
@@ -83,6 +99,9 @@ body {
     margin-bottom: 4px;
     margin-left: 25%;
     margin-top: 5px;
+}
+.search-bar:hover {
+    background-color: none;
 }
 
 .search-bar input {
@@ -100,8 +119,9 @@ body {
     margin-top: 4px;
     margin-left: 50px;
 }
+
 .status-envio {
-    background-color: #ffe600;
+    /* background-color: #ffe600; */
     color: black;
     padding: 5px;
     margin: 2px solid;
@@ -109,7 +129,7 @@ body {
 }
 
 .status-entregue {
-    background-color: #00ff00;
+    /* background-color: #00ff00; */
     color: black;
     padding: 5px;
     margin: 2px solid;
@@ -117,13 +137,30 @@ body {
 }
 
 .status-producao {
-    background-color: #ff0000;
+    /* background-color: #ff0000; */
     color: black;
     padding: 5px;
     margin: 2px solid;
     border-radius: 5px;
 }
-
+.conteiner .status{
+    padding: 10px;
+    width: 120px;
+    border: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+}
+.conteiner{
+    border: 2px solid #dddddd;
+    border-radius: 1px;
+    border-top:none;
+}
+.conteiner :hover{
+    background-color: #4E4E4E;
+    color: white;
+}
 .table{
     border: 1px solid #dddddd;
     border-radius: 10px 10px 0px 0px;
@@ -146,4 +183,22 @@ body {
 .detalhes-producao  {
     margin-left: 53%;
     color: #4E4E4E;
+}
+.bola-envio{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 208, 0, 0.682);
+    border-radius: 50%;
+}
+.bola-entregue{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 255, 17);
+    border-radius: 50%;
+}
+.bola-producao{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
 }
