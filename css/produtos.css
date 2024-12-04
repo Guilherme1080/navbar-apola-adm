@@ -24,23 +24,6 @@ body {
     margin-left: 6%;
 }
 
-.spacer {
-    flex: 1;
-}
-
-.button {
-    background-color: #333;
-    color: #fff;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-}
-
-
 .main-content h2 {
     margin-bottom: 20px;
     color: #000000;
@@ -54,43 +37,42 @@ body {
 
 }
 
-.tabs button {
-    padding: 10px;
-    width: 120px;
-    border: none;
-    border-radius: 5px;
-}
-
-.tabs button.active {
-    background-color: #ffffff; 
-    color: rgb(0, 0, 0);
-
-}
-.tabs .todos{
-    padding: 10px;
-    width: 120px;
-    border: none;
-    margin: 7px;
-    background-color: #ffffff; 
-    color: #000000;
-}
-.tabs .personalizados{
+.tabs a.todos{
     padding: 10px;
     width: 130px;
-    border: none;
     margin: 7px;
     background-color: #ffffff; 
     color: #000000;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-align: center;
 }
-.tabs .disponiveis{
+.tabs a.personalizados{
+    padding: 10px;
+    width: 130px;
+    margin: 7px;
+    background-color: #ffffff; 
+    color: #000000;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.tabs a.disponiveis{
     padding: 10px;
     width: 120px;
-    border: none;
     margin: 7px;
     background-color: #ffffff; 
     color: #000000;
+    margin-left: 2rem;
+    border-radius: 4px;
+    text-align: center;
 }
-.tabs .disponiveis :hover{
+.tabs a.disponiveis:hover{
+    background-color: #E5E5E5;
+}
+.tabs a.todos:hover{
+    background-color: #E5E5E5;
+}
+.tabs a.personalizados:hover{
     background-color: #E5E5E5;
 }
 .search-bar {
@@ -115,32 +97,10 @@ body {
 .search-bar button{
     padding: 10px 20px;
     cursor: pointer;
+    border: none;
     background-color: #FA301E;
     margin-top: 4px;
     margin-left: 50px;
-}
-
-.status-envio {
-    /* background-color: #ffe600; */
-    color: black;
-    padding: 5px;
-    margin: 2px solid;
-    border-radius: 5px;
-}
-
-.status-entregue {
-    /* background-color: #00ff00; */
-    color: black;
-    padding: 5px;
-    margin: 2px solid;
-    border-radius: 5px;
-}
-
-.status-producao {
-    /* background-color: #ff0000; */
-    color: black;
-    padding: 5px;
-    margin: 2px solid;
     border-radius: 5px;
 }
 .conteiner .status{
@@ -169,7 +129,7 @@ body {
 .table th,td{
     background-color:  #d6d6d6;
 }
-.table .sla{
+.sla{
     background-color: #d6d6d6;
 }
 .detalhes{
@@ -201,4 +161,17 @@ body {
     height: 10px;
     background-color: red;
     border-radius: 50%;
+}
+a.create-button{
+        background-color: #575757; /* Cor de fundo do botão */
+        color: #e7e7e7; /* Cor do texto */
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        margin-left: 80rem;
+}
+a.create-button:hover {
+    background-color: #444; /* Efeito ao passar o mouse */
 }

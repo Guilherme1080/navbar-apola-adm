@@ -1,7 +1,4 @@
-function recusarpedido() {
-    alert("Pedido recusado.");
-}
 
 function aceitarpedido() {
-    alert("Pedido aceito.");
+    alert("Pedido Salvo.");
 }

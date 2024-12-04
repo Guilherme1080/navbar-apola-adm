@@ -86,23 +86,23 @@
         <div>
             <label>Status Pedido:</label>
             <select id="status">
-            <option>Envio</option>
-            <option>Produção</option>
+            <option>Aguardando Pagamento</option>
+            <option>A Caminho</option>
             <option>Entregue</option>
             </select>
         </div>
         <div>
             <label>Código de Rastreamento:</label>
-            <input type="text" value="RA123456789BR" readonly>
+            <input type="text" value="RA123456789BR">
         </div>
-        <div>
+        <div class="preco">
             <label>Preço Total:</label>
             <span>R$ 88,50</span>
         </div>
         </div>
         <div class="description">
-        <label>Descrição:</label>
-        <textarea rows="4"></textarea>
+        <label>Descrição:</label >
+        <input rows="4" readonly>
         </div>
         <div class="image-section">
         <label>Imagem:</label>
@@ -111,8 +111,7 @@
     </div>
 </div>
 <div class="buttons">
-<button class="reject" onclick="recusarpedido()">Recusar Pedido</button>
-<button class="accept" onclick="aceitarpedido()">Aceitar Pedido</button>
+    <a href="pedidos.html" class="accept" onclick="aceitarpedido()">Salvar e sair</a>
 </div>
     <script src="js/main.js"></script>
     <script src="js/script.js"></script>
