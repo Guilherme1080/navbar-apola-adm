@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedidos</title>
+    <title>Produtos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/pedidos.css">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -23,7 +22,7 @@
                     </div>
                 </a>
                 <div class="nav__list">
-                    <a href="navbar.html" class="nav__link active-link">
+                    <a href="Dashboard.html" class="nav__link ">
                         <i class="fa-solid fa-clipboard-list"></i>
                         <span class="nav__name">Dashboard</span>
                     </a>
@@ -31,7 +30,7 @@
                         <i class="fa-solid fa-truck"></i>
                         <span class="nav__name">Pedidos</span>
                     </a>
-                    <a href="#" class="nav__link">
+                    <a href="#" class="nav__link active-link">
                         <i class="fa-solid fa-box"></i>
                         <span class="nav__name">Produtos</span>
                     </a>
@@ -47,60 +46,49 @@
             </nav>
         </div>
     </header>
+
     <script src="js/main.js"></script>
+
     <div class="main-content">
-        <div class="canela">
-            <h2>Produtos</h2>
-        </div>
-        <a href="" class="create-button"> Criar Produto </a>
+        <h2>Produtos</h2>
         <div class="tabs">
-            <button class="todos">Todos</button>
-            <button class="personalizados">Inativo</button>
-            <button class="disponiveis">Ativo</button>
+            <a href="#" class="todos"> Todos </a>
+            <a href="#" class="personalizados"> Ativo </a>
+            <a href="#" class="disponiveis"> Inativo </a>
             <div class="search-bar">
                 <div class="botao">
-                    <i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Pesquisar Nº Pedido"> <button>Buscar</button>
+                    <input type="text" placeholder="Pesquisar Produto: "> <button>Buscar</button>
                 </div>
             </div>
+            <a href="" class="trash">
+                <i class="fa-solid fa-trash"></i>
+            </a>
         </div>
-
         <table class="table">
             <thead class="cabecas">
                 <tr>
-                <td class="sla"><input type="checkbox"></td>
-                <th>Numero</th>
-                <th>Total</th>
-                <th>Tipo</th>
-                <th>Estado</th>
+                <th><input type="checkbox" name="" id=""></th>
+                <th>Titulo</th>
+                <th>Estoque</th>
                 <th>Status</th>
+                <th>Categoria</th>
                 <th></th>
                 <th></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><input type="checkbox"></td>
-                    <td>#1123</td>
-                    <td>R$ 153,20</td>
-                    <td>Disponível</td>
-                    <td>MS</td>
-                    <td><span class="status-envio">Envio</span></td>
+
                     <td>
-                        <div class="bola-envio"></div>
+                        <div class="container-foto">
+                            <input type="checkbox" name="" id="">
+                            <img class="img-produto" src="scr/1ca215c8d7.webp" alt="">
+                        </div>
                     </td>
-                    <td>
-                        <a href="detalhes_pedidos.html" class="detalhes">
-                            <i class="fa-solid fa-eye"></i>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox"></td>
-                    <td>#5832</td>
-                    <td>R$ 96,70</td>
-                    <td>Disponível</td>
-                    <td>SP</td>
-                    <td><span class="status-entregue">Entregue</span></td>
+                    <td>Cachepô de Macramê Boho Chic</td>
+                    <td>70</td>
+                    <td>Ativo</td>
+                    <td>Cachepôs</td>
                     <td>
                         <div class="bola-entregue"></div>
                     </td>
@@ -111,14 +99,40 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><input type="checkbox"></td>
-                    <td>#4265</td>
-                    <td>R$ 102,60</td>
-                    <td>Disponível</td>
-                    <td>RS</td>
-                    <td><span class="status-envio">Envio</span></td>
                     <td>
-                        <div class="bola-envio"></div>
+                        <div class="container-foto">
+                            <input type="checkbox" name="" id="">
+                            <img class="img-produto" src="scr/gato-colorido-amigurumi-gato-colorido-amigurumi.webp" alt="">
+                        </div>
+                    </td>
+                    <td>Amigurumi Gato Colorido</td>
+                    <td>42</td>
+                    <td>Ativo</td>
+                    <td>Amigurumi</td>
+
+                    <td>
+                        <div class="bola-entregue"></div>
+                    </td>
+                    <td>
+                        <a href="detalhes_pedidos.html" class="detalhes">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container-foto">
+                            <input type="checkbox" name="" id="">
+                            <img class="img-produto" src="scr/D_NQ_NP_970762-MLB45615208908_042021-O.webp" alt="">
+                        </div>
+                    </td>
+                    <td>Almofada Bordada à Mão</td>
+                    <td>23</td>
+                    <td>Inativo</td>
+                    <td>Bordado</td>
+
+                    <td>
+                        <div class="bola-producao"></div>
                     </td>
                     <td>
                         <a href="detalhes_pedidos.html" class="detalhes">
@@ -128,12 +142,17 @@
                 </tr>
                 </tr>
                 <tr>
-                    <td><input type="checkbox"></td>
-                    <td>#8910</td>
-                    <td>R$ 65,80</td>
-                    <td>Disponível</td>
-                    <td>TO</td>
-                    <td><span class="status-entregue">Entregue</span></td>
+                    <td>
+                        <div class="container-foto">
+                            <input type="checkbox" name="" id="">
+                            <img class="img-produto" src="scr/d8d885fe78.webp" alt="">
+                        </div>
+                    </td>
+                    <td>Porta-Chaves de Madeira Rústica</td>
+                    <td>126</td>
+                    <td>Ativo</td>
+                    <td>Porta-Chaves</td>
+
                     <td>
                         <div class="bola-entregue"></div>
                     </td>
@@ -145,12 +164,16 @@
                 </tr>
                 </tr>
                 <tr>
-                    <td><input type="checkbox"></td>
-                    <td>#6021</td>
-                    <td>R$ 87,50</td>
-                    <td>Disponível</td>
-                    <td>MS</td>
-                    <td><span class="status-producao">Produção</span></td>
+                    <td>
+                        <div class="container-foto">
+                            <input type="checkbox" name="" id="">
+                            <img class="img-produto" src="scr/IMG_3170_com-logo-1140x750.jpg" alt="">
+                        </div>
+                    </td>
+                    <td>Amigurumi Coelhinho de Páscoa</td>
+                    <td>76</td>
+                    <td>Inativo</td>
+                    <td>Amigurumi</td>
                     <td>
                         <div class="bola-producao">
                             
@@ -164,12 +187,16 @@
                 </tr>
                 </tr>
                 <tr>
-                    <td><input type="checkbox"></td>
-                    <td>#1349</td>
-                    <td>R$ 75,50</td>
-                    <td>Disponível</td>
-                    <td>RJ</td>
-                    <td><span class="status-producao">Produção</span></td>
+                    <td>
+                        <div class="container-foto">
+                            <input type="checkbox" name="" id="">
+                            <img class="img-produto" src="scr/quadro_bordado_a_mao_personalizado_com_nome_flores_3665_1_cce382ab16bddcc5dc37c4c22064c457.webp" alt="">
+                        </div>
+                    </td>
+                    <td>Quadro Bordado Floral</td>
+                    <td>80</td>
+                    <td>Inativo</td>
+                    <td>Bordado</td>
                     <td>
                         <div class="bola-producao"></div>
                     </td>
@@ -181,12 +208,16 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><input type="checkbox"></td>
-                    <td>#1565</td>
-                    <td>R$ 103,80</td>
-                    <td>Disponível</td>
-                    <td>MT</td>
-                    <td><span class="status-entregue">Entregue</span>
+                    <td>
+                        <div class="container-foto">
+                            <input type="checkbox" name="" id="">
+                            <img class="img-produto" src="scr/tapete-de-barbante-redondo-tapete-redondo.webp" alt="">
+                        </div>
+                    </td>
+                    <td>Tapete de Barbante Redondo</td>
+                    <td>150</td>
+                    <td>Ativo</td>
+                    <td>Tapetes</td>
                         <td>
                             <div class="bola-entregue"></div>
                         </td>
@@ -195,22 +226,6 @@
                                 <i class="fa-solid fa-eye"></i>
                             </a>
                         </td>
-                </tr>
-                </tr>
-                    <td><input type="checkbox"></td>
-                    <td>#1556</td>
-                    <td>R$ 97,90</td>
-                    <td>Disponível</td>
-                    <td>MS</td>
-                    <td><span class="status-entregue">Entregue</span></td>
-                    <td>
-                        <div class="bola-entregue"></div>
-                    </td>
-                    <td>
-                        <a href="detalhes_pedidos.html" class="detalhes">
-                            <i class="fa-solid fa-eye"></i>
-                        </a>
-                    </td>
                 </tr>
                 </tr>
             </tbody>

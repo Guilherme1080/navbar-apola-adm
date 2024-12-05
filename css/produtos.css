@@ -55,6 +55,7 @@ body {
     color: #000000;
     margin-left: 10px;
     border-radius: 10px;
+    text-align: center;
 }
 .tabs a.disponiveis{
     padding: 10px;
@@ -62,18 +63,21 @@ body {
     margin: 7px;
     background-color: #ffffff; 
     color: #000000;
-    margin-left: 2rem;
+
     border-radius: 4px;
     text-align: center;
 }
 .tabs a.disponiveis:hover{
-    background-color: #E5E5E5;
+    background-color: #FF0000;
+    color: #FFFFFF;
 }
 .tabs a.todos:hover{
-    background-color: #E5E5E5;
+    background-color: #FF0000;
+    color: #FFFFFF;
 }
 .tabs a.personalizados:hover{
-    background-color: #E5E5E5;
+    background-color: #FF0000;
+    color: #FFFFFF;
 }
 .search-bar {
     display: flex;
@@ -88,19 +92,20 @@ body {
 
 .search-bar input {
     padding: 10px;
-    width: 300px;
+    width: 350px;
     border: 1px solid #c0bebe82;
     border-radius: 5px;
     background-color: #c0bebe82;
+    margin-left: 10px;
 }
 
 .search-bar button{
     padding: 10px 20px;
+    color: #ffffff;
     cursor: pointer;
     border: none;
-    background-color: #FA301E;
+    background-color: #878787;
     margin-top: 4px;
-    margin-left: 50px;
     border-radius: 5px;
 }
 .conteiner .status{
@@ -174,4 +179,24 @@ a.create-button{
 }
 a.create-button:hover {
     background-color: #444; /* Efeito ao passar o mouse */
+}
+a.trash{
+    color: #4E4E4E;
+    margin-left: 120px;
+}
+.trash i{
+    color: #4E4E4E;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+.img-produto{
+    height: 4vh;
+    display: flex;
+    width: 2vw;
+    border-radius: 50%;
+}
+.container-foto{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
 }
