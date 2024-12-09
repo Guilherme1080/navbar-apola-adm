@@ -37,7 +37,7 @@ label {
     font-weight: bold;
 }
 
-input, select,textarea{
+input, select, textarea{
     width: 100%;
     padding: 5px;
     margin-top: 5px;
