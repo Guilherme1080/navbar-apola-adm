@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 6%;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.tabs {
+    display: flex;
+    margin-top: 60px;
+    border: 2px solid #dddddd;
+    border-radius: 10px 10px 00px 0px ;
+
+}
+.tabs a.personalizados{
+    padding: 10px;
+    width: 130px;
+    margin: 7px;
+    background-color: #ffffff; 
+    color: #000000;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.tabs a.disponiveis{
+    padding: 10px;
+    width: 120px;
+    margin: 7px;
+    background-color: #E5E5E5; 
+    color: #000000;
+    margin-left: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.tabs a.disponiveis:hover{
+    background-color: #E5E5E5;
+}
+.tabs a.todos:hover{
+    background-color: #E5E5E5;
+}
+.tabs a.personalizados:hover{
+    background-color: #E5E5E5;
+}
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    margin-left: 45%;
+    margin-top: 5px;
+}
+.search-bar:hover {
+    background-color: none;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #c0bebe82;
+    border-radius: 5px;
+    background-color: #c0bebe82;
+}
+
+.search-bar button{
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #FA301E;
+    margin-top: 4px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+.status {
+    padding: 10px;
+    width: 120px;
+    border: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+}
+.conteiner{
+    border: 2px solid #dddddd;
+    border-radius: 1px;
+    border-top:none;
+    padding: 1.5%;
+}
+.conteiner :hover{
+    background-color: #4E4E4E;
+    color: white;
+}
+.table{
+    border: 1px solid #dddddd;
+    border-radius: 10px 10px 0px 0px;
+    border-top: none;
+}
+.table th,td{
+    background-color:  #d6d6d6;
+}
+.table .sla{
+    background-color: #d6d6d6;
+}
+.detalhes{
+    margin-left: 64%;
+    color: #4E4E4E;
+}
+.detalhes-entregue{
+    margin-left: 55%;
+    color: #4E4E4E;
+}
+.detalhes-producao  {
+    margin-left: 53%;
+    color: #4E4E4E;
+}
+.bola-envio{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 208, 0, 0.682);
+    border-radius: 50%;
+}
+.bola-entregue{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 255, 17);
+    border-radius: 50%;
+}
+.bola-producao{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+a.status-pagamento{
+    padding: 10px;
+    width: 250px;
+    border: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+}
+a.status-caminho{
+    padding: 10px;
+    width: 250px;
+    border: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4E4E4E; 
+    color: rgb(255, 255, 255);
+}
+a.status-entregue{
+    padding: 10px;
+    width: 250px;
+    border: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+}
